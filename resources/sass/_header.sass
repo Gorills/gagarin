@@ -1,0 +1,177 @@
+.header
+    width: 100%
+    margin: 0 auto
+    border-bottom: 1px solid #54575f
+    position: absolute
+    top: 0
+    left: 0
+    z-index: 99
+    transition: $transition
+    @media only screen and (max-width : 992px)
+        background-color: $overdark-color
+        position: fixed
+        bottom: 0
+        left: -100%
+        width: 60%
+        display: flex
+        align-items: center
+        &--active
+            left: 0
+    &--fixed
+        position: fixed!important
+        background-color: rgba(4, 5, 10, 0.8)
+        @media only screen and (max-width : 992px)
+            background-color: $overdark-color
+    // .header__inner
+    &__inner
+        display: flex
+        width: 100%
+        margin: 0 auto
+        padding: 15px 0
+        justify-content: space-between
+        align-items: center
+        @media only screen and (max-width : 992px)
+            flex-direction: column
+    // .header__logo
+    &__logo
+        height: 70px
+        @media only screen and (max-width : 992px)
+            margin-bottom: 40px
+            height: 40px
+    // .header__nav
+    &__nav
+        display: flex
+        align-items: center
+        @media only screen and (max-width : 992px)
+            flex-direction: column
+            text-align: center
+    // .header__link
+    &__link
+        text-decoration: none
+        color: $light-color
+        position: relative
+        padding: 15px 0
+        transition: $transition
+
+        &--last
+            margin-right: 20px
+            @media only screen and (max-width : 992px)
+                margin-right: 0
+                margin-bottom: 20px
+        &::after
+            content: ""
+            position: absolute
+            width: 0
+            height: 2px
+            background-color: $light-color
+            bottom: 0
+            left: 50%
+            transform: translateX(-50%)
+            transition: $transition
+
+        &--active::after
+            width: 100%
+
+    &__link:hover::after
+        width: 100%
+    &__link + &__link
+        margin-left: 40px
+        @media only screen and (max-width : 992px)
+            margin-left: 0
+
+    // .header__social
+    &__social
+        border-left: 1px solid rgba(128, 128, 128, 0.84)
+        padding: 10px 0 10px 20px
+        @media only screen and (max-width : 992px)
+            border-left: none
+            border-top: 1px solid rgba(128, 128, 128, 0.84)
+            padding: 20px 0 10px 0
+
+    // header__social-link
+    &__social-link
+        color: $light-color
+        text-decoration: none
+        transition: $transition
+        font-size: 18px
+        &:hover
+            color: $accent-color
+    // .header__icon
+    &__social-link + &__social-link
+        margin-left: 20px
+    // .header__closer
+    &__closer
+        position: fixed
+        top: 0
+        left: 0
+        width: 100%
+        bottom: 0
+        opacity: 0
+        background-color: rgba(13, 34, 53, 0.5)
+        z-index: -100
+        transition: $transition
+        &--active
+            z-index: 98
+            opacity: 100%
+// Toggle menu
+.toggle-menu
+    padding: 5px
+    margin-left: 15px
+    display: none
+    position: fixed
+    top: 15px
+    right: 15px
+    z-index: 100
+    @media only screen and (max-width : 992px)
+        display: block
+.toggle-section
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    outline: none
+.menu-btn
+    display: flex
+    justify-content: center
+    width: 30px
+    height: 15px
+    border-radius: 50%
+    position: relative
+
+.menu-btn span,
+.menu-btn span::before,
+.menu-btn span::after
+    position: absolute
+    top: 50%
+    margin-top: -1px
+    left: 50%
+    margin-left: -10px
+    width: 20px
+    height: 2px
+    background-color: $second-color
+
+.menu-btn span::before,
+.menu-btn span::after
+    content: ''
+    display: block
+    transition: 0.2s
+
+.menu-btn span::before
+    transform: translateY(-5px)
+
+.menu-btn span::after
+    transform: translateY(5px)
+
+
+.menu-btn_active span:before
+    transform: rotate(-45deg)
+
+.menu-btn_active span
+    height: 0
+
+
+.menu-btn_active span:after
+    transform: rotate(45deg)
+
+
+
+

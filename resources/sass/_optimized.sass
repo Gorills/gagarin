@@ -1,0 +1,85 @@
+.optimized
+    margin: 0 auto
+    width: 100%
+    padding: $section-padding
+    // .optimized__inner
+    &__inner
+        margin: 0 auto
+        width: 100%
+    // .optimized__text
+    &__text
+        margin-bottom: 60px
+        line-height: $l1-6
+    // .optimized__h3
+    &__h3
+        text-align: center
+        font-weight: 300
+        text-transform: uppercase
+        font-size: 26px
+        margin-bottom: 40px
+    // .optimized__grid
+    &__grid
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        grid-gap: 20px
+
+
+        @media only screen and (max-width : 992px)
+            grid-template-columns: repeat(2, 1fr)
+        @media only screen and (max-width : 480px)
+            grid-template-columns: 1fr
+            text-align: center
+    // .optimized__item
+    &__item
+        align-items: center
+        display: flex
+        cursor: pointer
+        &:hover .optimized__number--one
+            top: -100%
+        &:hover .optimized__number--two
+            bottom: 0
+    // .optimized__wrapper
+    &__wrapper
+        position: relative
+        overflow: hidden
+        height: 48px
+        width: 120px
+        border-right: 1px solid $accent-color
+    // .optimized__number
+    &__number
+        font-weight: 800
+        font-size: 48px
+        position: absolute
+        transition: $transition
+        // .optimized__number--one
+        &--one
+            color: $second-color
+            top: 0
+        // .optimized__number--two
+        &--two
+            color: $accent-color
+            bottom: -100%
+
+    // .optimized__item-text
+    &__item-text
+        padding-left: 20px
+        line-height: $l1-6
+    // .optimized__list
+    &__list
+        list-style: none
+        margin-bottom: 60px
+    // .optimized__li
+    &__li
+        position: relative
+        &::after
+            position: absolute
+            top: 50%
+            left: -25px
+            transform: translateY(-50%)
+            content: ""
+            background-color: $accent-color
+            width: 15px
+            height: 3px
+
+    &__li + &__li
+        margin-top: 20px

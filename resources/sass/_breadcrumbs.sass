@@ -1,0 +1,29 @@
+// breadcrambs
+.breadcrumbs
+    padding: 1px 0
+    position: absolute
+    top: 100px
+    z-index: 1
+    width: 100%
+
+    // .breadcrumbs__inner
+    &__inner
+        list-style: none
+    // .breadcrumbs__item
+    &__item
+        display: inline-block
+        font-size: 11px
+        color: #ffffff
+        &--active
+            color: #fff
+        a
+            text-decoration: none
+            color: #fff
+            font-weight: 700
+            transition: $transition
+            &:hover
+                color: $accent-color
+
+    &__item + &__item
+        margin-left: 5px
+

@@ -1,0 +1,93 @@
+.price
+    margin: 0 auto
+    width: 100%
+    padding: $section-padding
+    background-color: $overdark-color
+    color: $light-color
+    text-align: center
+    // .price__inner
+
+    &__inner
+        width: 100%
+        margin: 0 auto
+
+    // .price__row
+
+    &__row
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        grid-gap: 20px
+        @media only screen and (max-width : 768px)
+            grid-template-columns: repeat(2, 1fr)
+        @media only screen and (max-width : 480px)
+            grid-template-columns: 1fr
+    // .price__item
+
+    &__item
+        //padding: 25px 15px
+        border: 1px solid rgba(13, 34, 53, 0.5)
+        padding-bottom: 20px
+
+    // .price__top
+    &__top
+        border-bottom: 1px solid rgba(13, 34, 53, 0.5)
+
+        padding: 35px 20px
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        min-height: 189px
+
+    // .price__title
+
+    &__title
+        text-align: center
+        margin-bottom: 40px
+        text-transform: uppercase
+        font-weight: 600
+
+        line-height: $l1-6
+    // .price__text
+    &__text
+        text-align: justify
+        margin-bottom: 40px
+        line-height: $l1-6
+
+    // .price__ul
+
+    &__ul
+
+        list-style: none
+        padding: 40px 20px
+        margin: 0
+        text-align: center
+    // .price__li
+
+    &__li
+        position: relative
+        //&::after
+        //    position: absolute
+        //    content: ""
+        //    height: 5px
+        //    width: 5px
+        //    border-radius: 50%
+        //    background-color: $accent-color
+        //    left: 0
+        //    top: 50%
+        //    transform: translateY(-50%)
+    &__li + &__li
+        margin-top: 20px
+    // .price__price
+
+    &__price
+        text-align: center
+
+        font-weight: 700
+        font-size: 22px
+        color: $accent-color
+
+    // .price__btn-wrapper
+    &__btn-wrapper
+        border-top: 1px solid rgba(13, 34, 53, 0.5)
+        padding-top: 20px

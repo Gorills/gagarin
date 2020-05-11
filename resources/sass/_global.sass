@@ -1,0 +1,73 @@
+body
+    margin: 0
+    padding: 0
+    font-size: 15px
+    color: #04050a
+    line-height: 1
+    font-family: 'Montserrat', sans-serif
+*,
+*:before,
+*:after
+    box-sizing: border-box
+
+h1, h2, h3, h4, h5, h6, p
+    margin: 0
+
+button
+    cursor: pointer
+
+
+.text-link
+    color: $accent-color
+    &:hover
+        color: $second-color
+
+
+.container
+    width: 100%
+    max-width: 1140px
+    margin: 0 auto
+    padding: 0 15px
+
+.btn
+    padding: 13px 27px
+    border: none
+    display: inline-block
+    text-decoration: none
+    color: $light-color
+    text-transform: uppercase
+    font-weight: 700
+    transition: $transition
+    &__accent
+        background-color: $accent-color
+        color: $light-color
+        &:hover
+            background-color: #b61d1e
+    &__accept
+        background-color: $second-color
+
+
+.title
+    font-size: 50px
+    text-align: center
+    text-transform: uppercase
+    font-weight: 200
+    line-height: 1.6
+    margin-bottom: 60px
+    @media only screen and (max-width : 480px)
+        font-size: 40px
+.suptitle
+    text-align: center
+    letter-spacing: 31.6px
+    text-transform: uppercase
+    font-size: 16px
+    margin-bottom: 60px
+    line-height: 1.9
+    @media only screen and (max-width : 480px)
+        letter-spacing: 15.6px
+.span-bold
+    font-weight: 800
+
+.span-accent
+    font-weight: 800
+    color: $accent-color
