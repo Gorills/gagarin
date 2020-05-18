@@ -105,58 +105,58 @@
 
 
 
-<section class="what">
+{{--<section class="what">--}}
 
-        <div class="what__inner">
-            <p class="suptitle">Что мы делаем?</p>
-            <h2 class="title">Наши<br>
-                <span class="span-bold">проекты</span>
-            </h2>
+{{--        <div class="what__inner">--}}
+{{--            <p class="suptitle">Что мы делаем?</p>--}}
+{{--            <h2 class="title">Наши<br>--}}
+{{--                <span class="span-bold">проекты</span>--}}
+{{--            </h2>--}}
 
-            <div class="what__grid">
+{{--            <div class="what__grid">--}}
 
-                <a href="#" class="what__item">
-                    <div class="what__cover">
-                        <i class="fas fa-plus"></i>
-                    </div>
-                    <img src="{{ asset('images/items/1.jpg') }}" alt="" class="what__img">
-                </a>
-                <a href="#" class="what__item">
-                    <div class="what__cover">
-                        <i class="fas fa-plus"></i>
-                    </div>
-                    <img src="{{ asset('images/items/1.jpg') }}" alt="" class="what__img">
-                </a>
-                <a href="#" class="what__item">
-                    <div class="what__cover">
-                        <i class="fas fa-plus"></i>
-                    </div>
-                    <img src="{{ asset('images/items/1.jpg') }}" alt="" class="what__img">
-                </a>
-                <a href="#" class="what__item">
-                    <div class="what__cover">
-                        <i class="fas fa-plus"></i>
-                    </div>
-                    <img src="{{ asset('images/items/1.jpg') }}" alt="" class="what__img">
-                </a>
-                <a href="#" class="what__item">
-                    <div class="what__cover">
-                        <i class="fas fa-plus"></i>
-                    </div>
-                    <img src="{{ asset('images/items/1.jpg') }}" alt="" class="what__img">
-                </a>
-                <a href="#" class="what__item">
-                    <div class="what__cover">
-                        <i class="fas fa-plus"></i>
-                    </div>
-                    <img src="{{ asset('images/items/1.jpg') }}" alt="" class="what__img">
-                </a>
+{{--                <a href="#" class="what__item">--}}
+{{--                    <div class="what__cover">--}}
+{{--                        <i class="fas fa-plus"></i>--}}
+{{--                    </div>--}}
+{{--                    <img src="{{ asset('images/items/1.jpg') }}" alt="" class="what__img">--}}
+{{--                </a>--}}
+{{--                <a href="#" class="what__item">--}}
+{{--                    <div class="what__cover">--}}
+{{--                        <i class="fas fa-plus"></i>--}}
+{{--                    </div>--}}
+{{--                    <img src="{{ asset('images/items/1.jpg') }}" alt="" class="what__img">--}}
+{{--                </a>--}}
+{{--                <a href="#" class="what__item">--}}
+{{--                    <div class="what__cover">--}}
+{{--                        <i class="fas fa-plus"></i>--}}
+{{--                    </div>--}}
+{{--                    <img src="{{ asset('images/items/1.jpg') }}" alt="" class="what__img">--}}
+{{--                </a>--}}
+{{--                <a href="#" class="what__item">--}}
+{{--                    <div class="what__cover">--}}
+{{--                        <i class="fas fa-plus"></i>--}}
+{{--                    </div>--}}
+{{--                    <img src="{{ asset('images/items/1.jpg') }}" alt="" class="what__img">--}}
+{{--                </a>--}}
+{{--                <a href="#" class="what__item">--}}
+{{--                    <div class="what__cover">--}}
+{{--                        <i class="fas fa-plus"></i>--}}
+{{--                    </div>--}}
+{{--                    <img src="{{ asset('images/items/1.jpg') }}" alt="" class="what__img">--}}
+{{--                </a>--}}
+{{--                <a href="#" class="what__item">--}}
+{{--                    <div class="what__cover">--}}
+{{--                        <i class="fas fa-plus"></i>--}}
+{{--                    </div>--}}
+{{--                    <img src="{{ asset('images/items/1.jpg') }}" alt="" class="what__img">--}}
+{{--                </a>--}}
 
-            </div>
-        </div>
+{{--            </div>--}}
+{{--        </div>--}}
 
 
-</section>
+{{--</section>--}}
 
 <section class="why">
     <div class="container">
@@ -177,122 +177,122 @@
 
 
 
-<div class="news">
+{{--<div class="news">--}}
 
-        <div class="news__inner">
-            <p class="suptitle">Наш блог</p>
-            <h2 class="title span-bold">Статьи</h2>
-            <div class="news__grid">
+{{--        <div class="news__inner">--}}
+{{--            <p class="suptitle">Наш блог</p>--}}
+{{--            <h2 class="title span-bold">Статьи</h2>--}}
+{{--            <div class="news__grid">--}}
 
 
-                <a href="#" class="news__item">
-                    <div class="news__wrapper">
-                        <div class="news__title">Заголовок новости</div>
+{{--                <a href="#" class="news__item">--}}
+{{--                    <div class="news__wrapper">--}}
+{{--                        <div class="news__title">Заголовок новости</div>--}}
 
-                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum
-                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.
-                        </p>
-                        <p class="news__btn">Подробнее</p>
-                    </div>
-                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">
-                </a>
+{{--                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.--}}
+{{--                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum--}}
+{{--                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.--}}
+{{--                        </p>--}}
+{{--                        <p class="news__btn">Подробнее</p>--}}
+{{--                    </div>--}}
+{{--                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">--}}
+{{--                </a>--}}
 
-                <a href="#" class="news__item">
-                    <div class="news__wrapper">
-                        <div class="news__title">Заголовок новости</div>
+{{--                <a href="#" class="news__item">--}}
+{{--                    <div class="news__wrapper">--}}
+{{--                        <div class="news__title">Заголовок новости</div>--}}
 
-                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum
-                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.
-                        </p>
-                        <p class="news__btn">Подробнее</p>
-                    </div>
-                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">
-                </a>
+{{--                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.--}}
+{{--                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum--}}
+{{--                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.--}}
+{{--                        </p>--}}
+{{--                        <p class="news__btn">Подробнее</p>--}}
+{{--                    </div>--}}
+{{--                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">--}}
+{{--                </a>--}}
 
-                <a href="#" class="news__item">
-                    <div class="news__wrapper">
-                        <div class="news__title">Заголовок новости</div>
+{{--                <a href="#" class="news__item">--}}
+{{--                    <div class="news__wrapper">--}}
+{{--                        <div class="news__title">Заголовок новости</div>--}}
 
-                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum
-                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.
-                        </p>
-                        <p class="news__btn">Подробнее</p>
-                    </div>
-                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">
-                </a>
+{{--                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.--}}
+{{--                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum--}}
+{{--                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.--}}
+{{--                        </p>--}}
+{{--                        <p class="news__btn">Подробнее</p>--}}
+{{--                    </div>--}}
+{{--                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">--}}
+{{--                </a>--}}
 
-                <a href="#" class="news__item">
-                    <div class="news__wrapper">
-                        <div class="news__title">Заголовок новости</div>
+{{--                <a href="#" class="news__item">--}}
+{{--                    <div class="news__wrapper">--}}
+{{--                        <div class="news__title">Заголовок новости</div>--}}
 
-                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum
-                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.
-                        </p>
-                        <p class="news__btn">Подробнее</p>
-                    </div>
-                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">
-                </a>
+{{--                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.--}}
+{{--                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum--}}
+{{--                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.--}}
+{{--                        </p>--}}
+{{--                        <p class="news__btn">Подробнее</p>--}}
+{{--                    </div>--}}
+{{--                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">--}}
+{{--                </a>--}}
 
-                <a href="#" class="news__item">
-                    <div class="news__wrapper">
-                        <div class="news__title">Заголовок новости</div>
+{{--                <a href="#" class="news__item">--}}
+{{--                    <div class="news__wrapper">--}}
+{{--                        <div class="news__title">Заголовок новости</div>--}}
 
-                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum
-                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.
-                        </p>
-                        <p class="news__btn">Подробнее</p>
-                    </div>
-                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">
-                </a>
+{{--                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.--}}
+{{--                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum--}}
+{{--                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.--}}
+{{--                        </p>--}}
+{{--                        <p class="news__btn">Подробнее</p>--}}
+{{--                    </div>--}}
+{{--                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">--}}
+{{--                </a>--}}
 
-                <a href="#" class="news__item">
-                    <div class="news__wrapper">
-                        <div class="news__title">Заголовок новости</div>
+{{--                <a href="#" class="news__item">--}}
+{{--                    <div class="news__wrapper">--}}
+{{--                        <div class="news__title">Заголовок новости</div>--}}
 
-                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum
-                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.
-                        </p>
-                        <p class="news__btn">Подробнее</p>
-                    </div>
-                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">
-                </a>
+{{--                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.--}}
+{{--                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum--}}
+{{--                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.--}}
+{{--                        </p>--}}
+{{--                        <p class="news__btn">Подробнее</p>--}}
+{{--                    </div>--}}
+{{--                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">--}}
+{{--                </a>--}}
 
-                <a href="#" class="news__item">
-                    <div class="news__wrapper">
-                        <div class="news__title">Заголовок новости</div>
+{{--                <a href="#" class="news__item">--}}
+{{--                    <div class="news__wrapper">--}}
+{{--                        <div class="news__title">Заголовок новости</div>--}}
 
-                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum
-                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.
-                        </p>
-                        <p class="news__btn">Подробнее</p>
-                    </div>
-                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">
-                </a>
+{{--                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.--}}
+{{--                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum--}}
+{{--                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.--}}
+{{--                        </p>--}}
+{{--                        <p class="news__btn">Подробнее</p>--}}
+{{--                    </div>--}}
+{{--                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">--}}
+{{--                </a>--}}
 
-                <a href="#" class="news__item">
-                    <div class="news__wrapper">
-                        <div class="news__title">Заголовок новости</div>
+{{--                <a href="#" class="news__item">--}}
+{{--                    <div class="news__wrapper">--}}
+{{--                        <div class="news__title">Заголовок новости</div>--}}
 
-                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum
-                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.
-                        </p>
-                        <p class="news__btn">Подробнее</p>
-                    </div>
-                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">
-                </a>
-            </div>
-            <a href="#" class="btn btn__accent">Все статьи</a>
-        </div>
+{{--                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.--}}
+{{--                            Ad amet animi beatae consequatur dolore doloremque dolores est explicabo fuga harum--}}
+{{--                            illum molestias, officiis quae quam, quidem, repellat tempora totam voluptate.--}}
+{{--                        </p>--}}
+{{--                        <p class="news__btn">Подробнее</p>--}}
+{{--                    </div>--}}
+{{--                    <img src="{{ asset('images/bg/3.jpg') }}" alt="" class="news__img">--}}
+{{--                </a>--}}
+{{--            </div>--}}
+{{--            <a href="#" class="btn btn__accent">Все статьи</a>--}}
+{{--        </div>--}}
 
-</div>
+{{--</div>--}}
 
 
 

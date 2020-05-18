@@ -1,0 +1,141 @@
+.blog
+    width: 100%
+    margin: 0 auto
+    background-color: $dark-color
+    color: #ffffff
+    // .blog__top
+    &__top
+        padding-top: 150px
+        padding-bottom: 20px
+        background-color: $dark-color
+        color: #ffffff
+
+    // .blog__inner
+
+    &__inner
+        width: 100%
+        margin: 0 auto
+    // .blog__title
+
+    &__title
+        text-align: center
+        font-size: 50px
+        margin-bottom: 40px
+    // .blog__categories
+
+    &__categories
+        margin: 0 auto
+        display: flex
+        justify-content: center
+    // .blog__categories-btn
+    &__categories-btn
+        display: inline-block
+
+
+    &__categories-btn + &__categories-btn
+        margin-left: 20px
+
+    // .blog__news
+
+    &__news
+        padding: 50px
+    // .blog__item
+
+    &__item
+        padding: 25px
+
+        border-top: 1px solid #54575f
+    // .blog__wrapper
+
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        margin-bottom: 40px
+        color: #ffffff
+        text-decoration: none
+        transition: $transition
+        padding: 20px
+        border: 1px solid rgba(51, 51, 51, 0)
+        &:hover
+            border: 1px solid #54575f
+
+            .blog__img-wrapper
+                transform: scale(1.05)
+                opacity: 50%
+
+    // .blog__img-wrapper
+
+    &__img-wrapper
+        height: 250px
+        width: 250px
+        position: relative
+        overflow: hidden
+        transition: $transition
+
+    // .blog__img
+
+    &__img
+        position: absolute
+        object-position: center center
+        object-fit: cover
+        height: 100%
+        width: 100%
+    // .blog__text-wrapper
+
+    &__text-wrapper
+        margin-top: 40px
+    // .blog__news-title
+
+    &__news-title
+        margin-bottom: 20px
+    // .blog__news-text
+
+    &__news-text
+
+    // .blog__tags
+
+    &__tags
+        display: flex
+        margin-bottom: 40px
+        padding: 0 20px
+    // .blog__tags-link
+
+    &__tags-link
+        margin-left: 20px
+        color: #ffffff
+        text-decoration: none
+        transition: $transition
+        &:hover
+            color: $second-color
+    // .blog__activity
+
+    &__activity
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 0 20px
+
+    // .blog__comments
+
+    &__comments
+        display: flex
+    // .blog__comments-link
+
+    &__comments-link
+        display: flex
+        text-decoration: none
+        color: #ffffff
+        transition: $transition
+        &:hover
+            color: $second-color
+    &__comments-link + &__comments-link
+        margin-left: 20px
+    // .blog__comments-text
+
+    &__comments-text
+        margin-left: 10px
+    // .blog__likes
+
+    &__likes
+        display: flex
+
