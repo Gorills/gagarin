@@ -2,6 +2,7 @@
     position: fixed
     z-index: 56
     background-color: #fff
+    max-width: 100%
     top: 50%
     left: 50%
     transform: translate(-50%, -50%)
@@ -19,8 +20,11 @@
         text-transform: uppercase
     // .social-popup__wrapper
     &__wrapper
-        display: flex
-
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        grid-gap: 15px
+        @media only screen and (max-width : 380px)
+            grid-template-columns: repeat(2, 1fr)
     // .social-popup__btn
 
     &__btn
@@ -99,7 +103,6 @@
             top: 50%
             left: 50%
             transform: translate(-50%, -50%)
-    &__icon + &__icon
-        margin-left: 20px
+
 
 

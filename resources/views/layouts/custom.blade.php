@@ -37,7 +37,7 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="@yield('twitter:description')" />
     <meta name="twitter:title" content="@yield('twitter:title')" />
-
+    <meta name="yandex-verification" content="b095c6092a4b4ffc" />
 
 </head>
 <body>
@@ -61,8 +61,9 @@
 {{--                <a href="{{ URL('/smm') }}" class="header__link">SMM</a>--}}
                 <a href="{{ URL('/kontekstnaya-reklama') }}" class="header__link">Реклама</a>
                 <a href="{{ URL('/portfolio') }}" class="header__link">Портфолио</a>
-                <a href="{{ URL('/blog') }}" class="header__link">Статьи</a>
+{{--                <a href="{{ URL('/blog') }}" class="header__link">Статьи</a>--}}
                 <a href="{{ URL('/contacts') }}" class="header__link header__link--last">Контакты</a>
+
                 <div class="header__social">
                     <a href="#" class="header__social-link">
                         <i class="fab fa-instagram header__icon"></i>
@@ -111,6 +112,7 @@
         <a href="tel:83822959039" class="social-popup__icon">
             <i class="fas fa-phone"></i>
         </a>
+
     </div>
 </div>
 
@@ -178,7 +180,7 @@
                     <a href="{{ URL('/#about') }}" class="footer__link">О компании</a>
                 </div>
                 <div class="footer__item">
-                    <a href="{{ URL('/blog') }}" class="footer__link">Блог</a>
+{{--                    <a href="{{ URL('/blog') }}" class="footer__link">Блог</a>--}}
                 </div>
                 <div class="footer__item">
                     <a href="{{ URL('/vacancy') }}" class="footer__link">Вакансии</a>
