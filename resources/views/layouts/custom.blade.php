@@ -7,18 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
-    <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
     <link rel="stylesheet" href="{{ URL::asset('css/site.css') }}">
     <script src="https://kit.fontawesome.com/0af96d350a.js" crossorigin="anonymous"></script>
-
-{{--    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">--}}
-
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900&display=swap&subset=cyrillic" rel="stylesheet">
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')"/>
@@ -32,7 +24,7 @@
 
     <meta name="theme-color" content="#0d2235">
     <meta property="og:site_name" content="" />
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="https://gagarin-digital.ru/images/logo.png" />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="@yield('twitter:description')" />
@@ -92,7 +84,7 @@
 
 
 <a href="#" class="social-popup__btn">
-    <i class="fas fa-space-shuttle"></i>
+    <img src="{{ asset('images/icon1.png') }}" alt="" class="social-popup__img">
 </a>
 
 <div class="social-popup__overlay"></div>
@@ -106,10 +98,10 @@
         <a href="tg://resolve?domain=GagarinTomsk" class="social-popup__icon">
             <i class="fab fa-telegram-plane"></i>
         </a>
-        <a href="mailto:support@gagarin-digital.ru" class="social-popup__icon">
+        <a href="mailto:zakaz@gagarin-digital.ru" class="social-popup__icon">
             <i class="far fa-envelope"></i>
         </a>
-        <a href="tel:83822959039" class="social-popup__icon">
+        <a href="tel:89528984601" class="social-popup__icon">
             <i class="fas fa-phone"></i>
         </a>
 
@@ -144,11 +136,11 @@
         <div class="footer__inner">
             <div class="footer__column">
                 <a href="#" class="footer__phone">8 (952) 898-4601</a>
-                <a href="mailto:gagarin70digital@gmail.com" class="footer__mail">gagarin70digital@gmail.com</a>
+                <a href="mailto:zakaz@gagarin-digital.ru" class="footer__mail">zakaz@gagarin-digital.ru</a>
                 <div class="footer__social">
                     <a href="#"><i class="footer__icon fab fa-vk"></i></a>
 
-                    <a href="#"><i class="footer__icon fab fa-instagram"></i></a>
+{{--                    <a href="#"><i class="footer__icon fab fa-instagram"></i></a>--}}
 
                 </div>
                 <p class="footer__text">Веб-студия «Гагарин»,
@@ -194,6 +186,10 @@
         </div>
     </div>
 </footer>
+
+
+
+
 
 
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

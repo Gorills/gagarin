@@ -321,6 +321,12 @@ button {
   }
 }
 
+.social-popup__img {
+  height: 50px;
+  width: 60px;
+  transform: rotate(90deg);
+}
+
 .social-popup__overlay {
   position: fixed;
   top: 0;
