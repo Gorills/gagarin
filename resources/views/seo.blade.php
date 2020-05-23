@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', 'Landing-page')
-@section('description', '')
-@section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
-@section('og:url', '')
-@section('twitter:description', '')
-@section('twitter:title', '')
+@section('title', 'SEO, оптимизация и продвижение сайтов в Томске')
+@section('description', 'Услуги поисковой оптимизации и продвижения сайтов в поисковых системах Яндекс и Google. Ваш сайт будет приносить клиентов уже с первого месяца работы.')
+@section('keywords', 'seo, сео, оптимизация сайтов, Томск')
+@section('canonical', 'https://gagarin-digital.ru/seo')
+@section('og:title', 'SEO, оптимизация и продвижение сайтов в Томске')
+@section('og:description', 'Услуги поисковой оптимизации и продвижения сайтов в поисковых системах Яндекс и Google. Ваш сайт будет приносить клиентов уже с первого месяца работы.')
+@section('og:url', 'https://gagarin-digital.ru/seo')
+@section('twitter:description', 'Услуги поисковой оптимизации и продвижения сайтов в поисковых системах Яндекс и Google. Ваш сайт будет приносить клиентов уже с первого месяца работы.')
+@section('twitter:title', 'SEO, оптимизация и продвижение сайтов в Томске')
 
 @section('content')
 

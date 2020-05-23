@@ -1,12 +1,12 @@
 @extends('layouts.custom')
 
-@section('title', 'Сайты')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'Создание сайтов в Томске под ключ, разработка сайтов, изготовление сайтов на заказ - «Gagarin»')
+@section('description', 'Заказать сайт в Томске недорого - создание сайтов от визитки до интернет магазина. Тел. 8(952) 898 46-01')
+@section('keywords', 'создание сайта, разработка сайта, изготовление сайта, Томск')
 @section('canonical', '')
 @section('og:title', '')
 @section('og:description', '')
-@section('og:url', '')
+@section('og:url', 'https://gagarin-digital.ru/razrabotka-sajtov')
 @section('twitter:description', '')
 @section('twitter:title', '')
 

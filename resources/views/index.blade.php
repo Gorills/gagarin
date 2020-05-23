@@ -1,15 +1,15 @@
 @extends('layouts.custom')
 
 
-@section('title', 'Главная')
-@section('description', '')
-@section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
-@section('og:url', '')
-@section('twitter:description', '')
-@section('twitter:title', '')
+@section('title', 'Веб-студия полного цикла «Gagarin»: создание и разработка сайтов, Томск')
+@section('description', 'Создание и разработка сайтов, продвижение в поисковых системах Яндекс и Google. Тел. 8(952) 898 46-01')
+@section('keywords', 'веб-студия, веб студия, web студия, Томск')
+@section('canonical', 'https://gagarin-digital.ru/')
+@section('og:title', 'Веб-студия полного цикла «Gagarin»: создание и разработка сайтов, Томск')
+@section('og:description', 'Создание и разработка сайтов, продвижение в поисковых системах Яндекс и Google. Тел. 8(952) 898 46-01')
+@section('og:url', 'https://gagarin-digital.ru/')
+@section('twitter:description', 'Создание и разработка сайтов, продвижение в поисковых системах Яндекс и Google. Тел. 8(952) 898 46-01')
+@section('twitter:title', 'Веб-студия полного цикла «Gagarin»: создание и разработка сайтов, Томск')
 
 @section('content')
 
