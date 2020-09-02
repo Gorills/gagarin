@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', 'Landing-page')
-@section('description', '')
+@section('title', 'Вакансии | Gagarin')
+@section('description', 'Вакансии | Gagarin')
 @section('keywords', '')
 @section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('og:title', 'Вакансии | Gagarin')
+@section('og:description', 'Вакансии | Gagarin')
 @section('og:url', '')
-@section('twitter:description', '')
-@section('twitter:title', '')
+@section('twitter:description', 'Вакансии | Gagarin')
+@section('twitter:title', 'Вакансии | Gagarin')
 
 @section('content')
 

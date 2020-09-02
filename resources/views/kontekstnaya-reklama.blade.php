@@ -24,26 +24,17 @@
             </ol>
         </div>
     </div>
-
-    <section class="section">
+    <div class="particles" id="particles">
         <div class="container">
 
             <div class="section__inner">
-                <h1 class="title"><span class="span-accent">К</span>онтекстная реклама в Томске</h1>
-                <p class="section__subtitle">Настройка и ведение
-                    контекстных рекламных объявлений.</p>
+                <h1 class="title"><span class="span-accent">Контекстная</span> реклама в Томске</h1>
+                <p class="section__subtitle">Настройка и ведение рекламных кампаний в Яндекс и Google</p>
                 <a href="#" class="section__btn btn btn__accent show_popup">Оставить заявку</a>
             </div>
 
         </div>
-{{--        <div class="section__akciya">--}}
-{{--            <div class="container">--}}
-{{--                <p class="section__title">Анализ сайта бесплатно</p>--}}
-{{--                <p class="section__text">Если у Вас уже есть сайт, но он не соответствует Вашим требованиям, медленно работает, плохо загружается или некорректно отображается, то мы можем абсолютно бесплатно проанализировать все его недостатки и причины плохой работы.</p>--}}
-{{--                <a href="#" class="section__btn btn btn__accent show_popup">Заказать</a>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-    </section>
+    </div>
 {{--    <section class="optimized">--}}
 {{--        <div class="container">--}}
 {{--            <div class="optimized__inner">--}}

@@ -27,25 +27,17 @@
         </div>
     </div>
 
-    <section class="section">
+    <div class="particles" id="particles">
         <div class="container">
 
             <div class="section__inner">
-                <h1 class="title"><span class="span-accent">SEO</span> оптимизация сайтов в Томске</h1>
-                <p class="section__subtitle">Ваш сайт будет всегда в ТОП выдачи поисковых систем Яндекс и Google.</p>
+                <h1 class="title"><span class="span-accent">СЕО</span> оптимизация в Томске</h1>
+                <p class="section__subtitle">Вывод сайтов в ТОП поиска Яндекс и Google</p>
                 <a href="#" class="section__btn btn btn__accent show_popup">Оставить заявку</a>
             </div>
 
         </div>
-        <div class="section__akciya">
-            <div class="container">
-                <p class="section__title">SEO аудит сайта бесплатно</p>
-                <p class="section__text">Если Вы не довольны позициями сайта в поисковых системах , то для Вас мы сделаем бесплатный анализ проблем на сайте и определим фронт работ для вывода сайта в ТОП поисковых систем.</p>
-                <a href="#" class="section__btn btn btn__accent show_popup">Заказать бесплатный аудит</a>
-            </div>
-        </div>
-    </section>
-
+    </div>
 
     <section class="optimized">
         <div class="container">

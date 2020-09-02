@@ -1,18 +1,18 @@
 @extends('layouts.custom')
 
-@section('title', 'Landing-page')
-@section('description', '')
+@section('title', 'Портфолио | Gagarin')
+@section('description', 'Портфолио | Gagarin')
 @section('keywords', '')
 @section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('og:title', 'Портфолио | Gagarin')
+@section('og:description', 'Портфолио | Gagarin')
 @section('og:url', '')
-@section('twitter:description', '')
-@section('twitter:title', '')
+@section('twitter:description', 'Портфолио | Gagarin')
+@section('twitter:title', 'Портфолио | Gagarin')
 
 @section('content')
 
-    <?php $type = 'Заявка со страницы контактов'; ?>
+    <?php $type = 'Заявка со страницы портфолио'; ?>
 
 
     <div class="breadcrumbs">
