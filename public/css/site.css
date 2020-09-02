@@ -2,7 +2,7 @@
   padding: 1px 0;
   position: absolute;
   top: 100px;
-  z-index: 1;
+  z-index: 200;
   width: 100%;
 }
 
@@ -19,16 +19,16 @@
 .breadcrumbs__item {
   display: inline-block;
   font-size: 11px;
-  color: #ffffff;
+  color: #0d2235;
 }
 
 .breadcrumbs__item--active {
-  color: #fff;
+  color: #0d2235;
 }
 
 .breadcrumbs__item a {
   text-decoration: none;
-  color: #fff;
+  color: #0d2235;
   font-weight: 700;
   transition: all 0.3s linear;
 }
@@ -364,6 +364,7 @@ button {
   margin: 0 auto;
   border-bottom: 1px solid #54575f;
   position: absolute;
+  background-color: #0d2235;
   top: 0;
   left: 0;
   z-index: 99;
@@ -842,6 +843,7 @@ button {
   width: 100%;
   height: 100%;
   min-height: 350px;
+  text-align: center;
   padding: 0 40px 0 0;
 }
 
@@ -900,7 +902,7 @@ button {
   position: absolute;
   top: 0;
   right: 0;
-  width: 90%;
+  width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -919,7 +921,6 @@ button {
   bottom: -90px;
   left: 0;
   height: 300px;
-  width: 200px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1258,7 +1259,6 @@ button {
 .section {
   width: 100%;
   margin: 0 auto;
-  background-color: #0d2235;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1270,6 +1270,10 @@ button {
 }
 
 .section__inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
   margin: 100px auto 60px;
   display: flex;
@@ -1502,6 +1506,32 @@ button {
 .price__btn-wrapper {
   border-top: 1px solid rgba(13, 34, 53, 0.5);
   padding-top: 20px;
+}
+
+.particles {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.particles__wrapper {
+  text-align: center;
+  position: absolute;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.particles__title {
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.particles__text {
+  margin-bottom: 60px;
+  font-size: 25px;
 }
 
 .footer {

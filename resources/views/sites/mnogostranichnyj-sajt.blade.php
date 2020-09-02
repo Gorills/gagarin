@@ -29,25 +29,17 @@
         </div>
     </div>
 
-    <section class="section">
+    <div class="particles" id="particles">
         <div class="container">
 
             <div class="section__inner">
-                <h1 class="title"><span class="span-accent">Р</span>азработка сайтов в Томске</h1>
-                <p class="section__subtitle">От landing-page до интернет магазина. Заказать любой сайт, под любые требования.</p>
+                <h1 class="title"><span class="span-accent">М</span>ногостраничный сайт заказать в Томске</h1>
+                <p class="section__subtitle">Полноценный корпоративный сайт с большим количеством страниц.</p>
                 <a href="#" class="section__btn btn btn__accent show_popup">Оставить заявку</a>
             </div>
 
         </div>
-        <div class="section__akciya">
-            <div class="container">
-                <p class="section__title">Анализ сайта бесплатно</p>
-                <p class="section__text">Если у Вас уже есть сайт, но он не соответствует Вашим требованиям, медленно работает, плохо загружается или некорректно отображается, то мы можем абсолютно бесплатно проанализировать все его недостатки и причины плохой работы.</p>
-                <a href="#" class="section__btn btn btn__accent show_popup">Заказать</a>
-            </div>
-        </div>
-    </section>
-
+    </div>
 
 
 @endsection

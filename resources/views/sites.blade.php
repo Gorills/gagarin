@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
 @section('title', 'Создание сайтов в Томске под ключ, разработка сайтов, изготовление сайтов на заказ - «Gagarin»')
-@section('description', 'Заказать сайт в Томске недорого - создание сайтов от визитки до интернет магазина. Тел. 8(952) 898 46-01')
+@section('description', 'Заказать сайт в Томске недорого - создание сайтов от визитки до интернет магазина. Цены на разработку сайтов в Томске. Тел. 8(952) 898 46-01')
 @section('keywords', 'создание сайта, разработка сайта, изготовление сайта, Томск')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
-@section('og:url', 'https://gagarin-digital.ru/razrabotka-sajtov')
-@section('twitter:description', '')
-@section('twitter:title', '')
+@section('canonical', 'https://gagarin-digital.ru/razrabotka-sajtov')
+@section('og:title', 'Создание сайтов в Томске под ключ, разработка сайтов, изготовление сайтов на заказ - «Gagarin»')
+@section('og:description', 'Заказать сайт в Томске недорого - создание сайтов от визитки до интернет магазина. Цены на разработку сайтов в Томске. Тел. 8(952) 898 46-01')
+@section('og:url', '')
+@section('twitter:description', 'Заказать сайт в Томске недорого - создание сайтов от визитки до интернет магазина. Цены на разработку сайтов в Томске. Тел. 8(952) 898 46-01')
+@section('twitter:title', 'Создание сайтов в Томске под ключ, разработка сайтов, изготовление сайтов на заказ - «Gagarin»')
 
 @section('content')
 
@@ -27,55 +27,51 @@
 
 
 
-<section class="section">
-    <div class="container">
 
-        <div class="section__inner">
-            <h1 class="title"><span class="span-accent">Р</span>азработка сайтов в Томске</h1>
-            <p class="section__subtitle">От landing-page до интернет магазина. Заказать любой сайт, под любые требования.</p>
-            <a href="#" class="section__btn btn btn__accent show_popup">Оставить заявку</a>
+
+        <div class="particles" id="particles">
+            <div class="container">
+
+                <div class="section__inner">
+                    <h1 class="title"><span class="span-accent">Р</span>азработка сайтов в Томске</h1>
+                    <p class="section__subtitle">От landing-page до интернет магазина. Заказать любой сайт, под любые требования.</p>
+                    <a href="#" class="section__btn btn btn__accent show_popup">Оставить заявку</a>
+                </div>
+
+            </div>
         </div>
 
-    </div>
-    <div class="section__akciya">
-        <div class="container">
-            <p class="section__title">Анализ сайта бесплатно</p>
-            <p class="section__text">Если у Вас уже есть сайт, но он не соответствует Вашим требованиям, медленно работает, плохо загружается или некорректно отображается, то мы можем абсолютно бесплатно проанализировать все его недостатки и причины плохой работы.</p>
-            <a href="#" class="section__btn btn btn__accent show_popup">Заказать</a>
-        </div>
-    </div>
-</section>
 
 
-<div class="category">
-    <div class="container">
-        <div class="category__inner">
+{{--<div class="category">--}}
+{{--    <div class="container">--}}
+{{--        <div class="category__inner">--}}
 
-            <a href="{{ url('/razrabotka-sajtov/sajt-vizitka') }}" class="category__item">
-                <img class="category__img" src="{{ URL::asset('images/icons-sites/1.png') }}" alt="">
-                <h3 class="category__title">Сайт-визитка</h3>
-                <p class="category__text"> Одностраничный сайт содержащий перечень услуг и контактной информации.</p>
-            </a>
-            <a href="{{ url('/razrabotka-sajtov/sajt-katalog') }}" class="category__item">
-                <img class="category__img" src="{{ URL::asset('images/icons-sites/2.png') }}" alt="">
-                <h3 class="category__title">Сайт-каталог</h3>
-                <p class="category__text"> Состоит из нескольких страниц и служит для представления услуг или продукции.</p>
-            </a>
-            <a href="{{ url('/razrabotka-sajtov/mnogostranichnyj-sajt') }}" class="category__item">
-                <img class="category__img" src="{{ URL::asset('images/icons-sites/3.png') }}" alt="">
-                <h3 class="category__title">Многостраничный сайт</h3>
-                <p class="category__text"> Содержит десяток страниц и обширно рассказывает о спецализации компании.</p>
-            </a>
-            <a href="{{ url('/razrabotka-sajtov/internet-magazin') }}" class="category__item">
-                <img class="category__img" src="{{ URL::asset('images/icons-sites/5.png') }}" alt="">
-                <h3 class="category__title">Интернет-магазин</h3>
-                <p class="category__text"> Состоит из множества страниц и предлагает своим клиентам приобрести продукт. </p>
-            </a>
+{{--            <a href="{{ url('/razrabotka-sajtov/sajt-vizitka') }}" class="category__item">--}}
+{{--                <img class="category__img" src="{{ URL::asset('images/icons-sites/1.png') }}" alt="">--}}
+{{--                <h3 class="category__title">Сайт-визитка</h3>--}}
+{{--                <p class="category__text"> Одностраничный сайт содержащий перечень услуг и контактной информации.</p>--}}
+{{--            </a>--}}
+{{--            <a href="{{ url('/razrabotka-sajtov/sajt-katalog') }}" class="category__item">--}}
+{{--                <img class="category__img" src="{{ URL::asset('images/icons-sites/2.png') }}" alt="">--}}
+{{--                <h3 class="category__title">Сайт-каталог</h3>--}}
+{{--                <p class="category__text"> Состоит из нескольких страниц и служит для представления услуг или продукции.</p>--}}
+{{--            </a>--}}
+{{--            <a href="{{ url('/razrabotka-sajtov/mnogostranichnyj-sajt') }}" class="category__item">--}}
+{{--                <img class="category__img" src="{{ URL::asset('images/icons-sites/3.png') }}" alt="">--}}
+{{--                <h3 class="category__title">Многостраничный сайт</h3>--}}
+{{--                <p class="category__text"> Содержит десяток страниц и обширно рассказывает о спецализации компании.</p>--}}
+{{--            </a>--}}
+{{--            <a href="{{ url('/razrabotka-sajtov/internet-magazin') }}" class="category__item">--}}
+{{--                <img class="category__img" src="{{ URL::asset('images/icons-sites/5.png') }}" alt="">--}}
+{{--                <h3 class="category__title">Интернет-магазин</h3>--}}
+{{--                <p class="category__text"> Состоит из множества страниц и предлагает своим клиентам приобрести продукт. </p>--}}
+{{--            </a>--}}
 
 
-        </div>
-    </div>
-</div>
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</div>--}}
 
 
 
@@ -195,22 +191,24 @@
                 </p>
                 <h3 class="optimized__h3">Чем отличаются наши сайты от сайтов других веб-студий?
                 </h3>
-                <p class="optimized__text">Мы иначально закладываем в сайты возможность SEO-оптимизации и делаем настройки для быстрой прокачки сайта,
+                <p class="optimized__text">Мы изначально закладываем в сайты возможность SEO-оптимизации и делаем настройки для быстрой прокачки сайта,
                     так как считаем что сайт без трафика бесполезен для любого бизнеса. Мы гарантируем своим клиентам прирост заявок через интернет без дополнительных
-                    затрат.
+                    затрат. При создании каждый сайт адаптируется под мобильную версию и прорабатывается скорость его загрузки за счет оптимизации кода и
+                    изображений. Это минимальные требования,
+                    которые мы предъявляем к разработанным нами сайтам.
                 </p>
                 <p class="optimized__text">
                     Мы работаем над отображением сайта в поисковых системах. Ваш сайт будет привлекать внимание клиентов своим качественным и проработанным отображением
-                    в поисковиках.
+                    в поисковых системах.
                 </p>
                 <p class="optimized__text">
                     Для любого из созданных нами сайтов мы настраиваем <a class="text-link" href="{{ URL('/kontekstnaya-reklama') }}">рекламные кабинеты</a> в Яндекс.Директ и Google Рекламе.
-                    Ключевые слова в рекламном кабинете задаются на основании сементического ядра сайта.
+                    Ключевые слова в рекламном кабинете задаются на основании семантического ядра сайта.
                 </p>
                 <h3 class="optimized__h3">Как заказать сайт?
                 </h3>
                 <p class="optimized__text">
-                    Чтобы заказать сайт просто позвоните нам по телефону <b>+7 (3822) 959 - 039</b> или напишите на e-mail <b>zakaz@gagarin-digital.com</b>
+                    Чтобы заказать сайт, просто позвоните нам по телефону  <b>+7 (952) 898 46-01</b> или напишите на e-mail <b>zakaz@gagarin-digital.ru</b>
                 </p>
                 <p class="optimized__text">
                     Кроме того, заказать сайт можно написав нам в любом из мессенджеров. Для этого нажмите на красную кнопку справа снизу экрана и выберите удобный способ связи.
@@ -262,6 +260,23 @@
         </div>
     </section>
 
+
+
+    <div class="price">
+        <div class="container">
+            <div class="price__inner">
+                <h2 class="title">Сайт, который вы заслуживаете</h2>
+
+                <div class="why-sites">
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
 
 
 

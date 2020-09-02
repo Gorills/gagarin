@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="{{ URL::asset('css/site.css') }}">
@@ -30,6 +29,20 @@
     <meta name="twitter:description" content="@yield('twitter:description')" />
     <meta name="twitter:title" content="@yield('twitter:title')" />
     <meta name="yandex-verification" content="b095c6092a4b4ffc" />
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(63852889, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/63852889" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 
 </head>
 <body>
@@ -68,7 +81,7 @@
         </div>
     </div>
 </header>
-<div class="toggle-menu" id="menu">
+<div class="toggle-menu">
     <div class="toggle-section">
         <a href="#" class="menu-btn">
             <span></span>
@@ -111,7 +124,7 @@
 
 
 <div class="overlay_popup"></div>
-<div class="popup" id="popup1">
+<div class="popup">
     <div class="container">
         <p class="popup__title">Оставить заявку</p>
         <form class="popup__form" action= "#" method= "post">
@@ -191,9 +204,11 @@
 
 
 
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<style src="{{ URL::asset('js/app.js') }}"></style>
+<script src="{{ URL::asset('js/particles.js') }}"></script>
+<script src="{{ URL::asset('js/app.js') }}"></script>
 <script src="{{ URL::asset('js/site.js') }} "></script>
 
 </body>
